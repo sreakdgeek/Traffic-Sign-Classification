@@ -1,6 +1,6 @@
 **Traffic Sign Recognition** 
 
-Introduction
+### Introduction
 
 Traffic Sign Classifier is trained on German Traffic signs dataset and classifies/recognizes new traffic images as one of the 43 traffic signs. Below are the steps to build Traffic Sign Classifier pipeline:
 
@@ -41,7 +41,7 @@ Traffic Sign Classifier is trained on German Traffic signs dataset and classifie
 
 
 ---
-###Data Set Summary & Exploration
+### Data Set Summary & Exploration
 
 Data set consists of 34K training samples, 4.4K validation and 12.6k. There are 43 distinct traffic signs in the dataset. 
 
