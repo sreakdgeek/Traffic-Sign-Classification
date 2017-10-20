@@ -59,7 +59,7 @@ Let’s examine few of the traffic sign classes:
 ![alt text][image2]
 ![alt text][image3]
 
-Observations
+### Observations
 
 We can observe that traffic signs of the same appear differently due to following aspects
 *	Lighting conditions
@@ -94,7 +94,7 @@ Summary Statistics
 Given the that lower quartile has only 285 images, we can augment the number of examples for these classes by faking the data. I applied rule of augmenting the traffic sign class by adding 400 images per class for the signs with less than 1000 example images. Initially I had planned to augment all the classes but the net result could be that the distribution would remain the same. Combinations of random rotation, translation, 
 sharpening or histogram equalization.
 
-###Data Augmentation
+### Data Augmentation
 
 Given the imbalanced data set, we can augment the dataset by generating fake images. Images can be generated through following operations:
 *	Rotation [-15, 15]
