@@ -116,12 +116,6 @@ Original Image       Augmented Image
 Below were the data pre-processing tests done:
 
 a)  Convert to gray scale
-
- Color Image         Grayscale Image
-
-![alt text][image12] ![alt text][image13]
-
-
 b) Normalize data set to be in the range of [0, 1]
 
 As per the Le-Net 5 implementation, color channels would not help in increasing the accuracy, which was my experience as well. Thus, 
@@ -180,6 +174,7 @@ Below is the plot for training vs validation accuracy:
 I have selected below set of random images from the web and tested in on my network:
 
 ![alt text][image20]
+![alt text][image21]
 
 First image seems to be difficult to classify as casting of shadow seems to suggest that the traffic sign is End of Speed Limit 80 
 instead of traffic sign speed limit 80. Also, another curve ball for the network is traffic sign speed limit 60. It almost looks 
@@ -189,9 +184,9 @@ predicted sofmax probabilities of the network.
 
 ### Top 5 Softmax probabilities
 
-![alt text][image21]
 ![alt text][image22]
 ![alt text][image23]
+![alt text][image24]
 
 Model could correctly classify 7/9 images correctly resulting in a 77.78% accuracy. This is lower than that of Test set because of 
 the smaller sample size and curve ball images in the test set. Looking at the softmax probabilities it is quite evident that model 
